@@ -40,7 +40,6 @@ class Stack {
     stack1.push(35);
     stack1.push(45);
     console.log(stack1);
-    debugger
 
     stack1.pop();
     stack1.pop();
