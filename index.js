@@ -1,7 +1,3 @@
-(() => {
-
-})();
-
 class Graph {
     constructor() {
         this.nodes = new Map();
@@ -74,6 +70,20 @@ class Graph {
     };
     display() {};
 }
+
+
+
+(() => {
+    let graph1 = new Graph();
+    graph1.addNode("Liza");
+    graph1.addNode("Kate");
+    graph1.addNode("Ann");
+    graph1.addNode("Inna");
+    graph1.addNode("Inna");
+    graph1.addEdge("Liza", "Kate");
+    console.log(graph1);
+
+})();
 
 
 // https://dev.to/codebondco/implementation-of-a-graph-javascript-4jin
